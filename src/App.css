@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.box {
+  width: 25%;
+  height: 60vh;
+  background-color: #a5bbdd;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.boxData {
+  padding: 20px;
+}
+
+.boxData input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.info {
+  margin-top: 20%;
+}
+
+.info .temp {
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
